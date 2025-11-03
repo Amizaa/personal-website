@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Home",
+        "link": "/home"
+    },
+    {
+        "name": "About me",
+        "link": "/about-me"
+    },
+    {
+        "name": "Resume",
+        "link": "/resume"
+    },
+    {
+        "name": "Portfolio",
+        "link": "/portfolio"
+    },
+    {
+        "name": "Contact",
+        "link": "/contact"
+    }
+]

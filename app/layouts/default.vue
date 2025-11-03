@@ -2,6 +2,7 @@
   <div>
     <HeaderMenu />
     <slot />
-    dsadas
   </div>
 </template>
+<style>
+</style>

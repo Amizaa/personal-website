@@ -4,4 +4,13 @@
   --color-main1: #c2efff ;
   --color-main2: #58c7f0 ;
   --color-main3: #424f9f ;
+  
+  --font-dyna: DynaPuff;
+}
+
+
+@font-face {
+  font-family: DynaPuff;
+  font-style: normal;
+  src: url("../fonts/DynaPuff-VariableFont_wdth\,wght.ttf");
 }

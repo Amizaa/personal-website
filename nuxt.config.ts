@@ -11,4 +11,20 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
+   typescript: {
+    // Extend or override Nuxt's TS compiler options
+    tsConfig: {
+      compilerOptions: {
+        resolveJsonModule: true,
+        esModuleInterop: true,
+        types: ["@types/node"]
+      },
+      include: [
+        "app/types/**/*.d.ts",
+        "app/data/**/*.json",
+        "app/components/**/*.vue",
+        "app/pages/**/*.vue"
+      ]
+    }
+  }
 })
