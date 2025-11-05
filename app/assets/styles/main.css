@@ -1,11 +1,12 @@
 @import "tailwindcss";
 
 @theme {
-  --color-main1: #c2efff ;
-  --color-main2: #90fbfb;
-  --color-main3: #58c7f0 ;
-  
   --font-dyna: DynaPuff;
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 1rem;
 }
 
 
