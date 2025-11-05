@@ -48,19 +48,19 @@ watch(isOpen, async (newVal) => {
       >
         <span
           :class="[
-            'block w-7 h-0.5 bg-gray-800 rounded transition-transform duration-300',
+            'block w-7 h-0.5 bg-cyan-600 rounded transition-transform duration-300',
             isOpen ? 'rotate-45 translate-y-2' : ''
           ]"
         ></span>
         <span
           :class="[
-            'block w-7 h-0.5 bg-gray-800 rounded transition-opacity duration-300',
+            'block w-7 h-0.5 bg-cyan-600 rounded transition-opacity duration-300',
             isOpen ? 'opacity-0' : 'opacity-100'
           ]"
         ></span>
         <span
           :class="[
-            'block w-7 h-0.5 bg-gray-800 rounded transition-transform duration-300',
+            'block w-7 h-0.5 bg-cyan-600 rounded transition-transform duration-300',
             isOpen ? '-rotate-45 -translate-y-2' : ''
           ]"
         ></span>
@@ -71,16 +71,19 @@ watch(isOpen, async (newVal) => {
         <div
           v-if="isOpen"
           ref="menu"
-          class="fixed inset-0 bg-gray-900 bg-opacity-90 flex flex-col items-center justify-center space-y-8 text-white text-2xl font-semibold"
+          class="fixed inset-0 bg-cyan-300 bg-opacity-90 flex flex-col items-center justify-center space-y-8 text-white text-2xl font-semibold"
         >
+        <img :src="Logo" class="w-1/3" alt="Personal Logo">
           <ul>
             <li
               v-for="(item, index) in menuItems"
               :key="index"
               ref="menuItem"
-              class="cursor-pointer hover:text-yellow-400"
+              class="cursor-pointer hover:text-yellow-400 text-center my-2"
             >
-              {{ item }}
+            <NuxtLink :to="item.link" @click="toggleMenu">
+              {{ item.name }}
+            </NuxtLink>
             </li>
           </ul>
         </div>
