@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { ref, onMounted } from 'vue';
 import gsap from 'gsap';
-import menuItems from "~/data/header.json";
+import {menuItems} from "@/data/header";
 import Logo from '@/../public/logo.png';
 import { useRoute } from 'vue-router';
 

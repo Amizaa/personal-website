@@ -1,8 +1,8 @@
-<script setup>
-import menuItems from "~/data/header.json";
+<script setup lang="ts">
+import { menuItems } from "@/data/header";
 import Logo from '@/../public/logo.png';
+import gsap from "gsap";
 
-import { gsap } from "gsap";
 
 const isOpen = ref(false);
 const menu = ref(null);
@@ -14,7 +14,7 @@ const toggleMenu = () => {
 };
 
 // Animate menu items when menu opens
-watch(isOpen, async (newVal) => {
+watch(isOpen, async (newVal:any) => {
   if (newVal) {
     await nextTick();
     gsap.fromTo(
@@ -79,7 +79,7 @@ watch(isOpen, async (newVal) => {
               v-for="(item, index) in menuItems"
               :key="index"
               ref="menuItem"
-              class="cursor-pointer hover:text-yellow-400 text-center my-2"
+              class="cursor-pointer hover:text-cyan-400 text-center my-2"
             >
             <NuxtLink :to="item.link" @click="toggleMenu">
               {{ item.name }}
