@@ -40,7 +40,7 @@ watch(isOpen, async (newVal:any) => {
 </script>
 
 <template>
-    <div class="relative md:hidden">
+    <div class="relative lg:hidden">
       <!-- Hamburger Button -->
       <button
         @click="toggleMenu"

@@ -47,7 +47,7 @@ function handleClick(index: number) {
 
 
 <template>
-  <nav class="hidden md:flex w-full justify-center my-4">
+  <nav class="hidden lg:flex w-full justify-center my-4">
     <div class="flex justify-between items-center shadow p-3 w-3/4 menu h-17 grid-cols-5 rounded-full">
       <div class="flex justify-center col-span-1">
         <NuxtLink to="/" @click="handleClick(0)">
@@ -64,7 +64,7 @@ function handleClick(index: number) {
             `menu-item-${index}`,
             'px-3 py-1 transition-transform rounded-md duration-300 ease-in-out cursor-pointer',
             activeIndex === index
-              ? 'text-cyan-500 font-semibold border-b-2 border-cyan-500'
+              ? 'text-cyan-500 font-semibold'
               : 'text-gray-700 hover:text-cyan-400'
           ]"
           @click="handleClick(index)"

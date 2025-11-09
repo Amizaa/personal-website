@@ -16,6 +16,7 @@ gsap.registerPlugin(SplitText);
 
 const introRef = ref<HTMLElement | null>(null);
 const phraseRef = ref<HTMLElement | null>(null)
+const imageRef = ref<HTMLElement | null>(null)
 
 
 onMounted(() => {
@@ -38,6 +39,16 @@ onMounted(() => {
         ease: 'power3.out'
       });
     }
+  
+  if (imageRef.value) {
+    gsap.from(imageRef.value, {
+      opacity: 0,
+      y: 50,
+      duration: 1,
+      ease: "power3.out",
+    });
+    
+  }
 
     setInterval(() => {
       currentPhrase.value = (currentPhrase.value + 1) % phrases.length;
@@ -68,13 +79,14 @@ watch(currentPhrase, async () => {
       ease: 'power3.out'
     });
   }
+
 });
 </script>
 
 <template>
     <div class="grid justify-center md:flex items-center pb-15 h-screen space-x-7">
             <div class=" w-full h-full flex justify-center items-center">
-                <img :src="logo" class="w-full" alt="Amirreza Noruzi Logo">
+                <img ref="imageRef" :src="logo" class="w-full" alt="Amirreza Noruzi Logo">
             </div>
 
             <div class="w-full h-full flex flex-col justify-center items-center text-center space-y-4">
