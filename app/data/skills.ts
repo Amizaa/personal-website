@@ -65,3 +65,7 @@ export const designTools: Skill[] = [
   { name: "Premiere Pro", icon: "devicon:premierepro", level: "intermediate" },
   { name: "Latex", icon: "devicon:latex", level: "intermediate" },
 ];
+
+export const cmsTools: Skill[] = [
+  { name: "WordPress", icon: "devicon:wordpress", level: "good" },
+];

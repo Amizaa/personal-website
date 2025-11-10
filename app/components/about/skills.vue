@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-    import { frontend,backend,databases,devops,securityNetworking,dataScience,hardware,designTools } from "@/data/skills";
+    import { frontend,backend,databases,devops,securityNetworking,dataScience,hardware,designTools,cmsTools } from "@/data/skills";
     
 </script>
 
@@ -20,6 +20,8 @@
         <SkillSection title="Hardware Embedded" title-icon="line-md:lightbulb" :items="hardware"/>
 
         <SkillSection title="Design Tools" title-icon="line-md:pencil" :items="designTools"/>
+
+        <SkillSection title="CMS Tools" title-icon="line-md:computer" :items="cmsTools"/>
 
     </div>
 </template>

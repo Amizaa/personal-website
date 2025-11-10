@@ -7,8 +7,5 @@
             <br>
             Beyond the screen, I find inspiration in nature, music, and the stories of the past. I believe that creativity thrives at the intersection of disciplines and I'm excited to <NuxtLink class="highlighted-text">keep learning, building, and sharing </NuxtLink> along the way.
             </p>
-
-
-
     </div>
 </template>

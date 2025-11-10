@@ -30,22 +30,3 @@
 
 </template>
 
-<style>
-@keyframes gradient {
-  0% { background-position: 0% 50%; }
-  25% { background-position: 100% 50%; }
-  50% { background-position: 100% 0%; }
-  100% { background-position: 0% 50%; }
-}
-
-.animate-gradient {
-  background-size: 200% 200%;
-  animation: gradient 3s ease infinite;
-}
-
-.animate-gradient:hover {
-  background-position: 0% 50%; 
-  animation: none;
-}
-</style>
-
