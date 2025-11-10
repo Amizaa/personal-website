@@ -31,15 +31,18 @@ onMounted(() => {
 </script>
 
 <template>
-    <div ref="timelineRef" :class="['mb-8 flex justify-between items-center w-full', index % 2 == 0 ? 'flex-row-reverse' : '']">
-      <div class="order-1 w-5/12"></div>
+    <div ref="timelineRef" :class="['mb-8 flex justify-center lg:justify-between mt-10 lg:mt-3 items-center w-full', index % 2 == 0 ? 'flex-row-reverse' : '']">
+      <div class="lg:order-1 lg:w-5/12"></div>
 
-      <div class="z-20 flex items-center order-1 justify-center bg-cyan-400 shadow-xl w-16 h-16 rounded-full">
+      <div class="hidden z-20 lg:flex items-center lg:order-1 justify-center bg-cyan-400 shadow-xl w-16 h-16 rounded-full">
         <img :src="item.companyIcon" :alt="item.company" class="object-cover w-14 h-14 rounded-full" />
       </div>
-
-
-      <div class="order-1 bg-cyan-500 rounded-lg shadow-xl w-5/12 px-6 py-4">
+      
+      
+      <div class="lg:order-1 bg-cyan-500 rounded-lg shadow-xl w-full lg:w-5/12 px-6 py-4">
+        <div class="z-20 mx-auto my-3 lg:hidden flex items-center justify-center bg-cyan-400 shadow-md w-16 h-16 rounded-full">
+          <img :src="item.companyIcon" :alt="item.company" class="object-cover w-14 h-14 rounded-full" />
+        </div>
         <div class="flex justify-between mb-3">
           <span class="text-sm text-gray-300">{{item.startDate}} - {{item.endDate}}</span>
           <span class="text-sm text-gray-300">{{item.location}}</span>
