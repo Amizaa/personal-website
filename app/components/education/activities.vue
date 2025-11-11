@@ -5,7 +5,7 @@ import { activities } from "@/data/activities";
 </script>
 
 <template>
-    <div>
+    <div class="my-10">
         <h1 class="text-3xl text-center text-cyan-600 my-6 font-bold">
             Academic Activities
         </h1>
