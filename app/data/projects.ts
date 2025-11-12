@@ -8,6 +8,7 @@ export const projects: Project[] = [
         description: 'A personal website that is a showcase of my portfolio',
         technologies: ['Nuxtjs', 'Nuxt UI', 'GSAP', 'TailwindCSS', 'TypeScript'],
         github: 'https://github.com/Amizaa/personal-website',
+        demo: '/',
         size: 'L'
     },
     {
