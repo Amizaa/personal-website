@@ -1,5 +1,9 @@
 <script setup lang="ts">
 import { links } from "@/data/contact";
+
+useHead({
+    title: 'Amirreza Noruzi | Contact Me'
+})
 </script>
 
 <template>

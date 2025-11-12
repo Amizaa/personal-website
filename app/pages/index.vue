@@ -5,6 +5,10 @@ import logo from "~/../public/logo.png";
 import SplitText from 'gsap/SplitText';
 import { links } from "@/data/contact";
 
+useHead({
+  title: 'Amirreza Noruzi | Home'
+})
+
 const phrases = [
     'Frontend Developer',
     'Nuxt.js/Vue.js Developer',

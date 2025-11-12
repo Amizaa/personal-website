@@ -5,7 +5,7 @@
 
 <template>
     <div class="my-10">
-        <h1 class=" text-4xl text-center text-cyan-600 my-6 font-bold">My Skills & Expertises</h1>
+        <h1 class=" text-4xl text-center text-cyan-600 my-1 font-bold">My Skills & Expertises</h1>
         <p class="my-2 text-gray-600 dark:text-gray-300 text-center">Live to Create, Learn to Grow</p>
 
 
