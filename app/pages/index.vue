@@ -3,6 +3,7 @@ import { ref, onMounted, watch, nextTick } from 'vue';
 import { gsap } from 'gsap';
 import logo from "~/../public/logo.png";
 import SplitText from 'gsap/SplitText';
+import { links } from "@/data/contact";
 
 const phrases = [
     'Frontend Developer',
@@ -86,14 +87,19 @@ watch(currentPhrase, async () => {
 <template>
     <div class="grid justify-center md:flex items-center pb-15 h-screen space-x-7">
             <div class=" w-full h-full flex justify-center items-center">
-                <img ref="imageRef" :src="logo" class="w-full" alt="Amirreza Noruzi Logo">
+                <img ref="imageRef" :src="logo" class="md:w-full w-3/4" alt="Amirreza Noruzi Logo">
             </div>
 
-            <div class="w-full h-full flex flex-col justify-center items-center text-center space-y-4">
+            <div class="w-full h-full flex flex-col justify-center items-center text-center space-y-4 my-5">
                 <h1 ref="introRef" class=" inline-block text-3xl  md:text-6xl font-semibold opacity-0 md:leading-20">
                     Hi. I'm <br><span class=" text-cyan-400">Amirreza Noruzi</span>
                     <br><span class=" text-xl md:text-2xl">a <span  ref="phraseRef" class=" text-cyan-600">{{ phrases[currentPhrase] }}</span></span>
                 </h1>
+                <div class="flex justify-between gap-5 my-5">
+                  <NuxtLink v-for="(item,index) in links" :key="index" class="mx-auto" :to="item.link" target="_blank">
+                      <Icon :name="item.icon" class="size-10 hover:scale-110 transition-all duration-300 ease-in-out cursor-pointer" :class="`hover:${item.hoverColor}`" />
+                  </NuxtLink>
+                </div>
             </div>
     </div>
 
