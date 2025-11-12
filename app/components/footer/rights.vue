@@ -1,5 +1,5 @@
 <template>
-<footer class="bottom-0 left-0 relative w-full bg-cyan-800 text-white text-start text-sm font-dyna p-2 z-50">
+<footer class="bottom-0 left-0 relative w-full bg-cyan-800 text-white text-start text-sm font-dyna p-2 z-49">
   <div class="flex flex-col justify-center items-center space-y-2">
     <span>Create with <Icon name="line-md:heart-filled" class="text-red-500 size-4 mx-1" /> and Nuxt</span>
     <span>© 2025 Amirreza Noruzi. All rights reserved.</span>

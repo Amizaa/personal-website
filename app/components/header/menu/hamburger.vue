@@ -74,7 +74,7 @@ watch(isOpen, async (newVal:any) => {
         <div
           v-if="isOpen"
           ref="menu"
-          class="fixed inset-0 bg-cyan-300 bg-opacity-90 flex flex-col items-center justify-center space-y-8 text-white text-2xl font-semibold"
+          class="fixed inset-0 bg-cyan-300 dark:bg-cyan-900 bg-opacity-90 flex flex-col items-center justify-center space-y-8 dark:text-white text-gray-500 text-2xl font-semibold"
         >
         <img :src="Logo" class="w-1/3" alt="Personal Logo">
           <ul>
@@ -82,11 +82,11 @@ watch(isOpen, async (newVal:any) => {
               v-for="(item, index) in menuItems"
               :key="index"
               ref="menuItem"
-              class="cursor-pointer hover:text-cyan-400 text-center my-2"
+              class="cursor-pointer my-5 hover:text-cyan-400 text-center"
             >
-            <NuxtLink :to="item.link" @click="toggleMenu">
-              {{ item.name }}
-            </NuxtLink>
+              <NuxtLink :to="item.link" @click="toggleMenu">
+                {{ item.name }}
+              </NuxtLink>
             </li>
           </ul>
         </div>
