@@ -64,8 +64,8 @@ function handleClick(index: number) {
             `menu-item-${index}`,
             'px-3 py-1 transition-transform rounded-md duration-300 ease-in-out cursor-pointer',
             activeIndex === index
-              ? 'text-cyan-500 font-semibold'
-              : 'text-gray-700 hover:text-cyan-400'
+              ? 'text-cyan-500 dark:text-cyan-300 font-semibold'
+              : 'text-gray-700 dark:text-gray-300 hover:text-cyan-400 dark:hover:text-cyan-200'
           ]"
           @click="handleClick(index)"
         >
@@ -73,7 +73,7 @@ function handleClick(index: number) {
         </nuxtLink>
       </div>
       <div class="flex justify-center col-span-1">
-        <!-- Optional right-side content -->
+        <ColorModeButton />
       </div>
     </div>
   </nav>
@@ -81,9 +81,15 @@ function handleClick(index: number) {
 
 
 <style>
-    .menu{
+  .menu{
     backdrop-filter: blur(5px) saturate(180%);
     background-color: rgba(88,199,240,0.39);
     border: 4px solid rgba(88,199,240,0.2);
-    }
+  }
+  
+  html.dark .menu {
+  backdrop-filter: blur(5px) saturate(180%);
+  background-color: rgba(234, 226, 226, 0.25); 
+  border: 4px solid rgba(234, 226, 226, 0.15);
+}
 </style>

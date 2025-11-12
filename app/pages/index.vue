@@ -97,7 +97,7 @@ watch(currentPhrase, async () => {
                 </h1>
                 <div class="flex justify-between gap-5 my-5">
                   <NuxtLink v-for="(item,index) in links" :key="index" class="mx-auto" :to="item.link" target="_blank">
-                      <Icon :name="item.icon" class="size-10 hover:scale-110 transition-all duration-300 ease-in-out cursor-pointer" :class="`hover:${item.hoverColor}`" />
+                      <Icon :name="item.icon" :class="['size-10 hover:scale-110 transition-all duration-300 ease-in-out cursor-pointer',`hover:text-${item.hoverColor}`]" />
                   </NuxtLink>
                 </div>
             </div>

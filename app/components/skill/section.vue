@@ -33,9 +33,9 @@ onMounted(() => {
 
 <template>
   <div ref="sectionRef" class="my-7">
-    <div class="flex items-center space-x-3 mb-2">
-      <Icon :name="titleIcon ?? ''" class="size-8 text-cyan-800" />
-      <h1 class="font-semibold text-xl my-4 text-cyan-800">
+    <div class="flex items-center space-x-3 mb-2 text-cyan-800 dark:text-cyan-600">
+      <Icon :name="titleIcon ?? ''" class="size-8" />
+      <h1 class="font-semibold text-xl my-4">
         {{ title }}
       </h1>
     </div>

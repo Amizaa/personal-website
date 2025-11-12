@@ -65,6 +65,9 @@ watch(isOpen, async (newVal:any) => {
           ]"
         ></span>
       </button>
+
+      <ColorModeButton class="z-50 fixed top-6 left-6"/>
+
   
       <!-- Menu Overlay -->
       <transition name="fade">
