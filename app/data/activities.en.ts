@@ -1,6 +1,6 @@
 import type { Activity } from "@/types/education.types";
 
-export const activities: Activity[] = [
+export const activitiesEn: Activity[] = [
     {
         title: 'Prompt Engineering Presentation',
         image: '/images/education/HBH-presentation.jpg',

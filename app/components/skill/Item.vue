@@ -1,10 +1,12 @@
-<script setup>
-  const props = defineProps({
-    item: Object
-  })
+<script setup lang="ts">
+import type { Skill } from "@/types/skills.types";
+import { skillConfig } from "@/types/skills.types";
 
-  import { skillConfig } from "@/types/skills.types";
+  const props = defineProps<{
+    item: Skill
+  }>()
 
+  const { t } = useI18n()
 </script>
 
 <template>
@@ -16,9 +18,9 @@
               <h3 class=" text-lg">{{item.name}}</h3>
             </div>
 
-            <div>
-              <span :class="skillConfig[item.level].textcolor">{{ item.level }}</span>
-            </div>
+            <span :class="skillConfig[item.level].textcolor">
+              {{ t(`about.skills.levels.${item.level}`) }}
+            </span>
           </div>
           
           <div>

@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+const {locale} = useI18n()
 import { ref, onMounted } from "vue";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -84,7 +85,7 @@ function hideOverlay() {
   v-model:open="openModal"
   :ui="{
     content: 'lg:max-w-4xl',
-    header: 'font-dyna lg:font-semibold'
+    header: `${locale === 'fa' ? 'font-playpen' : 'font-dyna'} lg:font-semibold`
   }"
   :title="item.title"
   :close="{
@@ -101,7 +102,7 @@ function hideOverlay() {
           class="w-full h-full object-cover"
         />
       </div>
-      <p class="font-dyna text-justify my-5">{{item.description}}</p>
+      <p :class="[locale === 'fa' ? 'font-playpen' : 'font-dyna', 'text-justify my-5']">{{item.description}}</p>
     </div>
   </template>
 </UModal>

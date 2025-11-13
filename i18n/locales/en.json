@@ -1,0 +1,95 @@
+{
+  "fullname": "Amirreza Noruzi",
+  "nickname": "Amiza",
+  "home": {
+    "pageTitle": "Home",
+    "title": "Hi. I'm {name}",
+    "phrases": [
+      "Frontend Developer",
+      "Nuxt.js/Vue.js Developer",
+      "Data Science Enthusiast"
+    ]
+  },
+  "about": {
+    "pageTitle": "About me",
+    "intro": {
+      "title": "My Story",
+      "content": {
+        "intro": "Hi, I'm {amirreza} (But you can call me {amiza}) a frontend developer with a passion for crafting smooth, expressive user interfaces using {vue} and {nuxt}. My journey in tech started 4 years ago, and since then, I've had the privilege of working on diverse projects. If I don’t know something, I dive in, explore, and learn it. That mindset fuels my daily growth and has recently led me into the exciting world of {ai}.",
+        "extra": "Beyond the screen, I find inspiration in nature, music, and the stories of the past. I believe that creativity thrives at the intersection of disciplines and I'm excited to {keepLearning} along the way."
+      }
+    
+    },
+    "skills": {
+      "title": "My Skills & Expertises",
+      "subtitle": "Live to Create, Learn to Grow",
+      "sections": {
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "databases": "Databases",
+        "securityNetworking": "Cyber Security & Networking",
+        "dataScience": "Data Science",
+        "hardware": "Hardware Embedded",
+        "designTools": "Design Tools",
+        "cmsTools": "CMS Tools"
+      },
+      "levels": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "good": "Good",
+      "advanced": "Advanced",
+      "professional": "Professional",
+      "expert": "Expert"
+      }
+    }
+
+  },
+  "resume":{
+    "pageTitle":"Resume",
+    "experience":{
+      "title": "My Work Experiences"
+    },
+
+    "education": {
+      "title": "My Education & Academic Achievements",
+      "content": {
+        "intro": "I recently graduated from {university} with a degree in {major}, achieving a high academic standing. During my studies, I actively contributed to the {association} for two years. This experience not only strengthened my technical expertise but also enhanced my teamwork, leadership, and communication skills."
+      }
+    },
+    "academic":{
+      "title": "Academic Activities"
+    }
+
+  },
+  "portfolio": {
+    "pageTitle": "Portfolio",
+    "title":"My Projects",
+    "subtitle": "Check out the projects I worked on!"
+  },
+  "contact":{
+    "pageTitle": "Contact",
+    "title": "Get In Touch",
+    "subtitle": "Let’s connect — whether it’s about projects, collaborations, or just sharing ideas.",
+    "address": " Urmia, West Azerbaijan Province, Iran"
+  },
+  "footer": {
+    "create": "Create with {heart} and Nuxt",
+    "rights": "© 2025 Amirreza Noruzi. All rights reserved."
+  },
+  "error": {
+    "titles": {
+      "404": "Page Not Found",
+      "403": "Access Forbidden",
+      "500": "Server Error",
+      "default": "Unexpected Error"
+    },
+    "messages": {
+      "404": "The page you are looking for could not be found.",
+      "403": "You do not have permission to view this page.",
+      "500": "Something went wrong on our end. Please try again later.",
+      "default": "An unexpected error has occurred."
+    },
+    "button": "Go back home"
+  }
+
+}

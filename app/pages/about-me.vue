@@ -1,6 +1,7 @@
 <script lang="ts" setup>
+const {t} = useI18n()
 useHead({
-    title: 'Amirreza Noruzi | About me'
+    title: `${t('fullname')} | ${t('about.pageTitle')} `
 })
 </script>
 

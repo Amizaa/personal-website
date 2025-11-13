@@ -1,6 +1,6 @@
 import type { Project } from "@/types/projects.types";
 
-export const projects: Project[] = [
+export const projectsEn: Project[] = [
     {
         title: 'Personal Website (This website)',
         tag: 'Fullstack',

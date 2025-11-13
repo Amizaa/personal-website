@@ -20,7 +20,6 @@ const isDark = computed({
       variant="soft"
       :aria-label="`Switch to ${isDark ? 'light' : 'dark'} mode`"
       @click="isDark = !isDark"
-      :ui="{}"
     />
 
     <template #fallback>

@@ -1,8 +1,24 @@
+<script lang="ts" setup>
+import { en } from '@nuxt/ui/locale'
+
+const { locale } = useI18n()
+
+useHead(() => ({
+  htmlAttrs: {
+    lang: locale.value,
+    dir: locale.value === 'fa' ? 'rtl' : 'ltr'
+  }
+}))
+</script>
+
 <template>
   <div>
-    <NuxtLayout >
-      <NuxtPage />
-    </NuxtLayout>
+    <UApp :locale="en">
+      <NuxtLoadingIndicator color="#6366F1" :height="3" :throttle="100" :duration="2000" />
+      <NuxtLayout >
+        <NuxtPage />
+      </NuxtLayout>
+    </UApp>
   </div>
 </template>
 

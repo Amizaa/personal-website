@@ -1,6 +1,6 @@
-import type { Experience } from "@/types/experiences.types";
+import type { ExperienceEn } from "@/types/experiences.types";
 
-export const experiences: Experience[] = [
+export const experiencesEn: ExperienceEn[] = [
     {
         title: "Junior Engineer & Digital Marketing",
         company: 'Afzar Sanat Saba (Saba Pack)',

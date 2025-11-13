@@ -3,6 +3,8 @@ import type { Experience } from "@/types/experiences.types";
 import { onMounted } from "vue";
 import gsap from "gsap";
 
+const {locale} = useI18n()
+
 const props = defineProps<{
     index: number,
     item: Experience
@@ -49,7 +51,7 @@ onMounted(() => {
         </div>
         <h3 class="font-bold text-cyan-50 text-xl">{{item.title}}</h3>
 
-        <h5 v-if="item.company" class=" text-cyan-100 mt-1 mb-4"><span class="text-gray-200">At</span> {{item.company}} - {{item.type}}</h5>
+        <h5 v-if="item.company" class=" text-cyan-100 mt-1 mb-4"><span class="text-gray-200">{{ locale === 'fa' ? 'در' : 'At'}}</span> {{item.company}} - {{item.type}}</h5>
         <h5 v-else class=" text-cyan-100 mt-1 mb-4">{{item.type}}</h5>
 
         <ul class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100 list-disc space-y-2 p-3">

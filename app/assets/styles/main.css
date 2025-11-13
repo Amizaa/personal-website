@@ -3,6 +3,7 @@
 
 @theme {
   --font-dyna: DynaPuff;
+  --font-playpen: Playpen;
 }
 
 @utility container {
@@ -40,9 +41,14 @@
 }
 
 
-
 @font-face {
   font-family: DynaPuff;
   font-style: normal;
   src: url("../fonts/DynaPuff-VariableFont_wdth\,wght.ttf");
+}
+
+@font-face {
+  font-family: Playpen;
+  font-style: normal;
+  src: url("../fonts/PlaypenSansArabic-Bold.ttf");
 }

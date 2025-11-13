@@ -1,14 +1,16 @@
 <script lang="ts" setup>
 import { ref, onMounted } from 'vue';
 import gsap from 'gsap';
-import {menuItems} from "@/data/header";
+import { useHeader } from "@/composable/useHeader";
 import Logo from '@/../public/logo.png';
 import { useRoute } from 'vue-router';
+
+const menuItems = useHeader()
 
 const route = useRoute();
 
 const activeIndex = ref<number | null>(null);
-activeIndex.value = route.name === 'index'? 0: menuItems.findIndex(item => item.slug === route.name);
+activeIndex.value = route.name === 'index'? 0: menuItems.value.findIndex(item => item.slug === route.name);
 
 onMounted(() => {
   gsap.fromTo(
@@ -43,6 +45,9 @@ function handleClick(index: number) {
 
   activeIndex.value = index;
 }
+
+const {locale, t} = useI18n()
+
 </script>
 
 
@@ -50,8 +55,8 @@ function handleClick(index: number) {
   <nav class="hidden lg:flex w-full justify-center my-4">
     <div class="flex justify-between items-center shadow p-3 w-3/4 menu h-17 grid-cols-5 rounded-full">
       <div class="flex justify-center col-span-1">
-        <NuxtLink to="/" @click="handleClick(0)">
-          <img class="w-15 h-15 cursor-pointer" :src="Logo" alt="Amirreza Noruzi logo">
+        <NuxtLink :to="locale === 'fa' ? '/fa' : '/' " @click="handleClick(0)">
+          <img class="w-15 h-15 cursor-pointer" :src="Logo" :alt="`${t('fullname')} logo`">
         </NuxtLink>
       </div>
       <div class="flex justify-center col-span-3 gap-3">
@@ -74,6 +79,7 @@ function handleClick(index: number) {
       </div>
       <div class="flex justify-center col-span-1">
         <ColorModeButton />
+        <SelectLanguage />
       </div>
     </div>
   </nav>

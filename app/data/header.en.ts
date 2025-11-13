@@ -1,11 +1,11 @@
-type MenuItem = {
+export type MenuItem = {
     name: string,
     slug: string,
     link: string
 }
 
 
-export const menuItems: MenuItem[] = [
+export const menuItemsEn: MenuItem[] = [
     {
         name: "Home",
         slug: "home",

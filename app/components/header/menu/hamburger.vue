@@ -1,7 +1,9 @@
 <script setup lang="ts">
-import { menuItems } from "@/data/header";
+import { useHeader } from "@/composable/useHeader";
 import Logo from '@/../public/logo.png';
 import gsap from "gsap";
+
+const menuItems = useHeader()
 
 
 const isOpen = ref(false);
@@ -67,6 +69,7 @@ watch(isOpen, async (newVal:any) => {
       </button>
 
       <ColorModeButton class="z-50 fixed top-6 left-6"/>
+      <SelectLanguage class="z-50 fixed top-6 left-18"/>
 
   
       <!-- Menu Overlay -->
