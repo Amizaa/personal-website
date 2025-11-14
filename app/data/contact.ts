@@ -5,30 +5,30 @@ export const links: Link[] = [
         name: 'github',
         icon: 'line-md:github',
         link: 'https://github.com/Amizaa',
-        hoverColor: 'gray-950'
+        hoverColor: 'hover-github'
     },
     {
         name: 'telegram',
         icon: 'line-md:telegram',
         link: 'https://t.me/Amiiiiza',
-        hoverColor: 'blue-500'
+        hoverColor: 'hover-telegram'
     },
     {
         name: 'email',
         icon: 'line-md:email',
         link: 'mailto:amirrezanoruziiii@gmail.com',
-        hoverColor: 'red-500'
+        hoverColor: 'hover-email'
     },
     {
         name: 'linkedin',
         icon: 'line-md:linkedin',
         link: 'https://www.linkedin.com/in/amirreza-noruzi',
-        hoverColor: 'blue-400'
+        hoverColor: 'hover-linkedin'
     },
     {
         name: 'instagram',
         icon: 'line-md:instagram',
         link: 'https://www.instagram.com/amirreza.noruzii/',
-        hoverColor: 'pink-500'
+        hoverColor: 'hover-instagram'
     },
 ]

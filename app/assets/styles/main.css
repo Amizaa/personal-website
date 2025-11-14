@@ -40,6 +40,26 @@
   animation: none;
 }
 
+.hover-email {
+  @apply hover:text-red-500
+}
+
+.hover-github {
+  @apply hover:text-gray-950
+}
+
+.hover-telegram {
+  @apply hover:text-blue-500
+}
+
+.hover-linkedin {
+  @apply hover:text-blue-400
+}
+
+.hover-instagram {
+  @apply hover:text-pink-500
+}
+
 
 @font-face {
   font-family: DynaPuff;
