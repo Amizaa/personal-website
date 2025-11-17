@@ -1,6 +1,5 @@
 {
   "fullname": "Amirreza Noruzi",
-  "nickname": "Amiza",
   "home": {
     "pageTitle": "Home",
     "title": "Hi. I'm {name}",
@@ -15,7 +14,7 @@
     "intro": {
       "title": "My Story",
       "content": {
-        "intro": "Hi, I'm {amirreza} (But you can call me {amiza}) a frontend developer with a passion for crafting smooth, expressive user interfaces using {vue} and {nuxt}. My journey in tech started 4 years ago, and since then, I've had the privilege of working on diverse projects. If I don’t know something, I dive in, explore, and learn it. That mindset fuels my daily growth and has recently led me into the exciting world of {ai}.",
+        "intro": "Hi, I'm {amirreza} a frontend developer with a passion for crafting smooth, expressive user interfaces using {vue} and {nuxt}. My journey in tech started 4 years ago, and since then, I've had the privilege of working on diverse projects. If I don’t know something, I dive in, explore, and learn it. That mindset fuels my daily growth and has recently led me into the exciting world of {ai}.",
         "extra": "Beyond the screen, I find inspiration in nature, music, and the stories of the past. I believe that creativity thrives at the intersection of disciplines and I'm excited to {keepLearning} along the way."
       }
     

@@ -14,7 +14,7 @@ export const projectsEn: Project[] = [
     {
         title: 'Rimas Accessory Website',
         tag: 'Fullstack',
-        image: '',
+        image: '/images/projects/rimas.png',
         description: 'An eCommerce website for selling different types of accessories',
         technologies: ['Nuxtjs','Nuxt Ui','Django','REST API','TailwindCSS','Pinia','PostgreSQL', 'TypeScript'],
         github:'https://github.com/Amizaa/Rimas-Accessories-Website',

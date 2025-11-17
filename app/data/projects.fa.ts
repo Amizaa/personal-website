@@ -15,7 +15,7 @@ export const projectsFa: Project[] = [
   {
     title: "وب‌سایت فروشگاه ریمَس",
     tag: "فول‌استک",
-    image: "",
+    image: '/images/projects/rimas.png',
     description:
       "یک وب‌سایت فروشگاهی برای عرضه و فروش انواع اکسسوری‌ها با طراحی مدرن و امکانات کامل خرید آنلاین.",
     technologies: [
@@ -54,7 +54,7 @@ export const projectsFa: Project[] = [
   },
   {
     title: "پیش‌بینی قیمت طلا",
-    tag: "علم داده",
+    tag: "علوم داده",
     image: "/images/projects/gold_price_prediction.png",
     description:
       "پروژه دانشگاهی من درباره پیش‌بینی قیمت طلا بر اساس تحلیل احساسات اخبار با استفاده از یادگیری ماشین و مدل‌های زبانی پیشرفته.",

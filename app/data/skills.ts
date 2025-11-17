@@ -5,7 +5,7 @@ export const frontend: Skill[] = [
   { name: "Nuxt", icon: "devicon:nuxt", level: "professional" },
   { name: "Nuxt UI", icon: "devicon:nuxt", level: "advanced" },
   { name: "JavaScript", icon: "devicon:javascript", level: "advanced" },
-  { name: "TypeScript", icon: "devicon:typescript", level: "intermediate" },
+  { name: "TypeScript", icon: "devicon:typescript", level: "good" },
   { name: "HTML5", icon: "devicon:html5", level: "professional" },
   { name: "CSS3", icon: "devicon:css3", level: "professional" },
   { name: "TailwindCSS", icon: "devicon:tailwindcss", level: "professional" },

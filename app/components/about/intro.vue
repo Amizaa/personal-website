@@ -13,9 +13,6 @@ const { t, locale } = useI18n()
         <template #amirreza>
           <NuxtLink to="/" class="highlighted-text">{{t('fullname')}}</NuxtLink>
         </template>
-        <template #amiza>
-          <NuxtLink to="/" class="highlighted-text">{{t('nickname')}}</NuxtLink>
-        </template>
         <template #vue>
           <NuxtLink to="https://vuejs.org" class="highlighted-vue">Vue.js</NuxtLink>
         </template>
