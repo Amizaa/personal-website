@@ -13,7 +13,7 @@ async function toggleLocale() {
       ? `/fa${route.path.replace(/^\/fa/, '')}`
       : route.path.replace(/^\/fa/, '')
 
-  await router.push({ path: targetPath })
+  await router.replace({ path: targetPath })
 
   locale.value = newLocale
 }
