@@ -8,11 +8,15 @@ const route = useRoute()
 async function toggleLocale() {
   const newLocale = locale.value === 'en' ? 'fa' : 'en'
 
-  const targetPath =
+  let targetPath =
     newLocale === 'fa'
       ? `/fa${route.path.replace(/^\/fa/, '')}`
       : route.path.replace(/^\/fa/, '')
 
+  if (targetPath === '') {
+    targetPath = '/'
+  }
+  
   await router.replace({ path: targetPath })
 
   locale.value = newLocale
