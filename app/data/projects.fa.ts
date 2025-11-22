@@ -72,5 +72,24 @@ export const projectsFa: Project[] = [
     github: "https://github.com/Amizaa/library-management",
     size: "S",
     demo: "https://project.miladrezvani.ir/library/"
-  }
+  },
+  {
+    title: 'پروژه‌های طراحی گرافیک',
+    tag: 'طراحی',
+    image: '/images/projects/graphic_design.png',
+    description: 'مجموعه‌ای از کارهای طراحی گرافیک من شامل طراحی بنرهای تبلیغاتی برای شرکت صبا پک و پروژه‌های دانشگاهی مانند طراحی لوح تقدیر فارغ‌التحصیلی و سایر طراحی‌های .',
+    technologies: ['فتوشاپ'],
+    size: 'S',
+  },
+  {
+    title: 'وبسایت انجمن علمی مهندسی کامپیوتر ',
+    tag: 'وردپرس',
+    image: '/images/projects/uucessc.png',
+    description: 'طراحی و راه‌اندازی وبسایت رسمی انجمن علمی مهندسی کامپیوتر (UUCESSC) با استفاده از وردپرس. این پروژه شامل شخصی‌سازی قالب، نصب و پیکربندی افزونه‌ها و مدیریت محتوا بود تا حضور آنلاین حرفه‌ای برای انجمن فراهم شود.',
+    technologies: ['وردپرس', 'MySQL', 'CSS', 'مدیریت محتوا'],
+    demo: 'https://uucessc.ir',
+    size: 'M'
+}
+
+
 ];

@@ -57,6 +57,25 @@ export const projectsEn: Project[] = [
         github: 'https://github.com/Amizaa/library-management',
         size: 'S',
         demo: 'https://project.miladrezvani.ir/library/'
+    },
+    {
+    title: 'Graphic Design Projects',
+    tag: 'Design',
+    image: '/images/projects/graphic_design.png',
+    description: 'A collection of my graphic design works including promotional banners for Saba Pack company and academic projects such as graduation certificates and other creative designs.',
+    technologies: ['Photoshop'],
+    size: 'S',
+    },
+    {
+    title: 'UUCESSC Website',
+    tag: 'Wordpress',
+    image: '/images/projects/uucessc.png',
+    description: 'Developed and launched the official website for the Computer Engineering Scientific Association (UUCESSC) using WordPress. The project included theme customization, plugin integration, and content management to provide a professional online presence for the association.',
+    technologies: ['WordPress','MySQL', 'CSS', 'Content Management'],
+    demo: 'https://uucessc.ir',
+    size: 'M'   
     }
+
+
 ]
 
