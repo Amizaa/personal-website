@@ -13,7 +13,7 @@ export const projectsFa: Project[] = [
     size: "L"
   },
   {
-    title: "وب‌سایت فروشگاه ریمَس",
+    title: "وب‌سایت فروشگاه ریماس",
     tag: "فول‌استک",
     image: '/images/projects/rimas.png',
     description:
@@ -74,6 +74,15 @@ export const projectsFa: Project[] = [
     demo: "https://project.miladrezvani.ir/library/"
   },
   {
+    title: 'وبسایت انجمن علمی مهندسی کامپیوتر ',
+    tag: 'وردپرس',
+    image: '/images/projects/uucessc.png',
+    description: 'طراحی و راه‌اندازی وبسایت رسمی انجمن علمی مهندسی کامپیوتر (UUCESSC) با استفاده از وردپرس. این پروژه شامل شخصی‌سازی قالب، نصب و پیکربندی افزونه‌ها و مدیریت محتوا بود تا حضور آنلاین حرفه‌ای برای انجمن فراهم شود.',
+    technologies: ['وردپرس', 'MySQL', 'CSS', 'مدیریت محتوا'],
+    demo: 'https://uucessc.ir',
+    size: 'M'
+  },
+  {
     title: 'پروژه‌های طراحی گرافیک',
     tag: 'طراحی',
     image: '/images/projects/graphic_design.png',
@@ -82,14 +91,13 @@ export const projectsFa: Project[] = [
     size: 'S',
   },
   {
-    title: 'وبسایت انجمن علمی مهندسی کامپیوتر ',
-    tag: 'وردپرس',
-    image: '/images/projects/uucessc.png',
-    description: 'طراحی و راه‌اندازی وبسایت رسمی انجمن علمی مهندسی کامپیوتر (UUCESSC) با استفاده از وردپرس. این پروژه شامل شخصی‌سازی قالب، نصب و پیکربندی افزونه‌ها و مدیریت محتوا بود تا حضور آنلاین حرفه‌ای برای انجمن فراهم شود.',
-    technologies: ['وردپرس', 'MySQL', 'CSS', 'مدیریت محتوا'],
-    demo: 'https://uucessc.ir',
-    size: 'M'
-}
-
-
+    title: 'طراحی کارت ویزیت ریماس',
+    tag: 'طراحی',
+    image: '/images/projects/rimas_card.png',
+    description: 'طراحی کارت ویزیت ریماس با رویکردی مینیمال و حرفه‌ای، هویت بصری برند را به‌طور خلاقانه نمایان می‌سازد.',
+    technologies: ['فتوشاپ'],
+    size: 'S',
+  },
+  
+  
 ];

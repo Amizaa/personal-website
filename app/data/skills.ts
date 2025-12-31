@@ -33,10 +33,10 @@ export const devops: Skill[] = [
   { name: "Docker", icon: "devicon:docker", level: "advanced" },
   { name: "Kubernetes", icon: "devicon:kubernetes", level: "good" },
   { name: "Git", icon: "devicon:git", level: "advanced" },
-  { name: "Ubuntu", icon: "devicon:ubuntu", level: "good" },
 ];
 
 export const securityNetworking: Skill[] = [
+  { name: "Ubuntu", icon: "devicon:ubuntu", level: "good" },
   { name: "Kali Linux", icon: "devicon:kalilinux", level: "good" },
   { name: "Burp Suite", icon: "devicon:kalilinux", level: "intermediate" },
   { name: "PFsense", icon: "devicon:pfsense", level: "beginner" },

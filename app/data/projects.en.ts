@@ -59,6 +59,15 @@ export const projectsEn: Project[] = [
         demo: 'https://project.miladrezvani.ir/library/'
     },
     {
+        title: 'UUCESSC Website',
+        tag: 'Wordpress',
+        image: '/images/projects/uucessc.png',
+        description: 'Developed and launched the official website for the Computer Engineering Scientific Association (UUCESSC) using WordPress. The project included theme customization, plugin integration, and content management to provide a professional online presence for the association.',
+        technologies: ['WordPress','MySQL', 'CSS', 'Content Management'],
+        demo: 'https://uucessc.ir',
+        size: 'M'   
+    },
+    {
     title: 'Graphic Design Projects',
     tag: 'Design',
     image: '/images/projects/graphic_design.png',
@@ -67,14 +76,13 @@ export const projectsEn: Project[] = [
     size: 'S',
     },
     {
-    title: 'UUCESSC Website',
-    tag: 'Wordpress',
-    image: '/images/projects/uucessc.png',
-    description: 'Developed and launched the official website for the Computer Engineering Scientific Association (UUCESSC) using WordPress. The project included theme customization, plugin integration, and content management to provide a professional online presence for the association.',
-    technologies: ['WordPress','MySQL', 'CSS', 'Content Management'],
-    demo: 'https://uucessc.ir',
-    size: 'M'   
-    }
+    title: 'Design Rimas Business Card',
+    tag: 'Design',
+    image: '/images/projects/rimas_card.png',
+    description: 'Designing the Rimas business card with a minimal and professional approach creatively showcases the brand’s visual identity.',
+    technologies: ['Photoshop'],
+    size: 'S',
+    },
 
 
 ]
