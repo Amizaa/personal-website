@@ -49,14 +49,13 @@ export const projectsEn: Project[] = [
         size: 'M',
     },
     {
-        title: 'Library Management System',
-        tag: 'Frontend',
-        image: '/images/projects/library.png',
-        description: 'The Software course project that designed to simplify the management of library resources, search for books, and borrow them effortlessly.',
-        technologies: ['Vue.js','Javascript','CSS'],
-        github: 'https://github.com/Amizaa/library-management',
-        size: 'S',
-        demo: 'https://project.miladrezvani.ir/library/'
+        title: 'Developer Productivity Analytics',
+        tag: 'Data Science',
+        image: '/images/projects/Developer_Productivity_Analytics.png',
+        description: 'This project explores how the conditions of a coding session may relate to developer  productivity. It is a practical exercise in using Python and statistics to inspect, clean, summarize, visualize, and reason about data.',
+        technologies: ['Statistic', 'Probability','Data Visualization', 'Python'],
+        github: 'https://github.com/Amizaa/Developer-Productivity-Analytics',
+        size: 'M',
     },
     {
         title: 'UUCESSC Website',
@@ -66,6 +65,16 @@ export const projectsEn: Project[] = [
         technologies: ['WordPress','MySQL', 'CSS', 'Content Management'],
         demo: 'https://uucessc.ir',
         size: 'M'   
+    },
+    {
+        title: 'Library Management System',
+        tag: 'Frontend',
+        image: '/images/projects/library.png',
+        description: 'The Software course project that designed to simplify the management of library resources, search for books, and borrow them effortlessly.',
+        technologies: ['Vue.js','Javascript','CSS'],
+        github: 'https://github.com/Amizaa/library-management',
+        size: 'S',
+        demo: 'https://project.miladrezvani.ir/library/'
     },
     {
     title: 'Graphic Design Projects',

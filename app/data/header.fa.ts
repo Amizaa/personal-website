@@ -17,6 +17,11 @@ export const menuItemsFa: MenuItem[] = [
         link: "/fa/about-me"
     },
     {
+        name: "مهارت ها",
+        slug: "skills",
+        link: "/fa/skills"
+    },
+    {
         name: "رزومه",
         slug: "resume",
         link: "/fa/resume"

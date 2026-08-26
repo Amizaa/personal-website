@@ -63,15 +63,13 @@ export const projectsFa: Project[] = [
     size: "M"
   },
   {
-    title: "سیستم مدیریت کتابخانه",
-    tag: "فرانت‌اند",
-    image: "/images/projects/library.png",
-    description:
-      "پروژه درس نرم‌افزار که با هدف ساده‌سازی مدیریت منابع کتابخانه، جستجوی کتاب‌ها و فرآیند امانت‌گیری طراحی شد.",
-    technologies: ["Vue.js", "Javascript", "CSS"],
-    github: "https://github.com/Amizaa/library-management",
-    size: "S",
-    demo: "https://project.miladrezvani.ir/library/"
+    title: 'تجزیه و تحلیل بهره‌وری توسعه‌دهندگان',
+    tag: 'علوم داده',
+    image: '/images/projects/Developer_Productivity_Analytics.png',
+    description: 'این پروژه بررسی می‌کند که چگونه شرایط یک جلسه کدنویسی ممکن است با بهره‌وری توسعه‌دهنده مرتبط باشد. این یک تمرین عملی در استفاده از پایتون و آمار برای بررسی، پاکسازی، خلاصه‌سازی، تجسم و استدلال در مورد داده‌ها است.',
+    technologies: ['آمار و احتمال','مصورسازی داده ها', 'پایتون'],
+    github: 'https://github.com/Amizaa/Developer-Productivity-Analytics',
+    size: 'M',
   },
   {
     title: 'وبسایت انجمن علمی مهندسی کامپیوتر ',
@@ -81,6 +79,17 @@ export const projectsFa: Project[] = [
     technologies: ['وردپرس', 'MySQL', 'CSS', 'مدیریت محتوا'],
     demo: 'https://uucessc.ir',
     size: 'M'
+  },
+  {
+    title: "سیستم مدیریت کتابخانه",
+    tag: "فرانت‌اند",
+    image: "/images/projects/library.png",
+    description:
+      "پروژه درس نرم‌افزار که با هدف ساده‌سازی مدیریت منابع کتابخانه، جستجوی کتاب‌ها و فرآیند امانت‌گیری طراحی شد.",
+    technologies: ["Vue.js", "Javascript", "CSS"],
+    github: "https://github.com/Amizaa/library-management",
+    size: "S",
+    demo: "https://project.miladrezvani.ir/library/"
   },
   {
     title: 'پروژه‌های طراحی گرافیک',

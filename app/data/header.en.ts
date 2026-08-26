@@ -17,6 +17,11 @@ export const menuItemsEn: MenuItem[] = [
         link: "/about-me"
     },
     {
+        name: "Skills",
+        slug: "skills",
+        link: "/skills"
+    },
+    {
         name: "Resume",
         slug: "resume",
         link: "/resume"
