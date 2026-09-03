@@ -72,7 +72,6 @@ watch(isOpen, async (newVal:any) => {
       <SelectLanguage class="z-50 fixed top-6 left-18"/>
 
   
-      <!-- Menu Overlay -->
       <transition name="fade">
         <div
           v-if="isOpen"

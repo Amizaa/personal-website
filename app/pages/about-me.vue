@@ -9,6 +9,7 @@ useHead({
     <div class="my-10">
         <AboutIntro />
 
+        <AboutBookLayout/>
         
     </div>
 

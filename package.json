@@ -16,6 +16,7 @@
     "@tailwindcss/vite": "^4.1.16",
     "gsap": "^3.13.0",
     "nuxt": "^4.2.0",
+    "nuxt-viewport": "^2.6.1",
     "vue": "^3.5.22",
     "vue-router": "^4.6.3"
   },

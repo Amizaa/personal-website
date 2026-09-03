@@ -19,6 +19,14 @@
       }
     
     },
+
+    "books": {
+      "title": "My Reading Journey",
+      "subtitle": "A collection of books that have shaped my thinking, curiosity, and journey through technology and beyond.",
+      "bookReview": "My Review"
+
+    },
+    
     "skills": {
       "title": "My Skills & Expertises",
       "subtitle": "Live to Create, Learn to Grow",
