@@ -18,7 +18,7 @@ useHead({
                 {{t('contact.address')}}
             </h5>
 
-            <div class="grid lg:grid-cols-5 md:grid-cols-2 grid-cols-1 space-x-10 space-y-10 my-15 mx-auto ">
+            <div class="grid lg:grid-cols-6 md:grid-cols-2 grid-cols-1 space-x-10 space-y-10 my-15 mx-auto ">
                 <ContactItem v-for="(link,index) in links" :key="index" :item="link" />
             </div>
                

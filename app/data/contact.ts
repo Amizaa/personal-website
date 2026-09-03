@@ -31,4 +31,10 @@ export const links: Link[] = [
         link: 'https://www.instagram.com/amirreza.noruzii/',
         hoverColor: 'hover-instagram'
     },
+    {
+        name: 'kaggle',
+        icon: 'simple-icons:kaggle',
+        link: 'https://www.kaggle.com/amirrezanoruzi',
+        hoverColor: 'hover-kaggle'
+    },
 ]
