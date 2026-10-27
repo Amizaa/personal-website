@@ -3,6 +3,14 @@ import type { Book } from "@/types/books.types";
 
 export const BooksEn: Book[] = [
   {
+  title: "A Fraction of The Whole",
+  author: " Steve Toltz",
+  cover: "/images/books/fraction.png",
+  category: "novel",
+  description: "Jasper Dean, for most of his life, could not decide what to do with his paranoid father; pity him, hate him, love him or even kill him. Jesper's father, Martin, was a man who overanalyzed everything and forced his self-made intelligence on his only son.",
+  rating: 5,
+  },
+  {
   title: "Data Science from Scratch",
   author: "Joel Grus",
   cover: "/images/books/ds.png",

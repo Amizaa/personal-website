@@ -61,7 +61,7 @@
     "education": {
       "title": "My Education & Academic Achievements",
       "content": {
-        "intro": "I recently graduated from {university} with a degree in {major}, achieving a high academic standing. During my studies, I actively contributed to the {association} for two years. This experience not only strengthened my technical expertise but also enhanced my teamwork, leadership, and communication skills."
+        "intro": "I graduated from {university} with a degree in {major}, achieving a high academic standing. During my studies, I actively contributed to the {association} for two years. This experience not only strengthened my technical expertise but also enhanced my teamwork, leadership, and communication skills."
       }
     },
     "academic":{

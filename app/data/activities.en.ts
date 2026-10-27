@@ -7,6 +7,11 @@ export const activitiesEn: Activity[] = [
         description: 'Delivered a presentation on the emerging field of Prompt Engineering as part of the Hafte Be Hafte academic program. The session introduced key concepts, practical applications, and future opportunities of prompt design in AI systems, while engaging students and faculty in discussions about how effective prompts can improve problem‑solving and innovation.'
     },
     {
+        title: 'TA of Software Engineering Courses 1&2',
+        image: '/images/education/software.png',
+        description: "As an teacher assistant of software engineering courses 1 and 2, I was responsible for receiving and reviewing students' final projects, guiding them through the various stages of the project and answering questions."
+    },
+    {
         title: 'Urmia CTF (UCTF)',
         image: '/images/education/UCTF.jpg',
         description: 'Contributed as a member of the operation team for Urmia CTF, a student‑led cybersecurity competition jointly organized by Urmia University and Urmia University of Technology. Supported the smooth execution of the event and took the lead in redesigning the official website, improving usability, visual design, and participant experience.'
