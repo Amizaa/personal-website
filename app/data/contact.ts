@@ -16,7 +16,7 @@ export const links: Link[] = [
     {
         name: 'email',
         icon: 'line-md:email',
-        link: 'mailto:contact@amirrezanoruzi.ir',
+        link: 'mailto:amirreza.noruzi@email.kntu.ac.ir',
         hoverColor: 'hover-email'
     },
     {

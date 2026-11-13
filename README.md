@@ -80,6 +80,7 @@ These tools help deliver a fast, accessible, and visually engaging experience ac
 
 Created with ❤️ by **Amirreza (Amiza)**   
 - GitHub: [github.com/Amizaa](https://github.com/Amizaa)  
+- Academic Email: amirreza.noruzi@email.kntu.ac.ir
 - Email: amirrezanoruziiii@gmail.com  
 
 Feel free to reach out for collaborations, freelance opportunities, or just to share ideas.

@@ -4,9 +4,9 @@
     "pageTitle": "Home",
     "title": "Hi. I'm {name}",
     "phrases": [
-      "Frontend Developer",
-      "Nuxt.js/Vue.js Developer",
-      "Data Science Enthusiast"
+      "Data Science Enthusiast",
+      "Machine Learning Enthusiast",
+      "Nuxt.js/Vue.js Developer"
     ]
   },
   "about": {

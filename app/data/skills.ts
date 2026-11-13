@@ -16,7 +16,6 @@ export const frontend: Skill[] = [
 export const backend: Skill[] = [
   { name: "Django", icon: "devicon:python", level: "advanced" },
   { name: "Nodejs", icon: "devicon:nodejs", level: "intermediate" },
-  { name: "Python", icon: "devicon:python", level: "advanced" },
   { name: "Java", icon: "devicon:java", level: "good" },
   { name: "C", icon: "devicon:c", level: "intermediate" },
   { name: "Telegraf (Telegram Bot)", icon: "devicon:nodejs", level: "intermediate" },
@@ -46,10 +45,13 @@ export const securityNetworking: Skill[] = [
 ];
 
 export const dataScience: Skill[] = [
-  { name: "Jupyter", icon: "devicon:jupyter", level: "good" },
+  { name: "Python", icon: "devicon:python", level: "advanced" },
+  { name: "Jupyter", icon: "devicon:jupyter", level: "advanced" },
+  { name: "Numpy", icon: "devicon:numpy", level: "advanced" },
   { name: "Pandas", icon: "devicon:pandas", level: "good" },
-  { name: "Numpy", icon: "devicon:numpy", level: "good" },
+  { name: "Matplot", icon: "devicon:matplotlib", level: "good" },
   { name: "ScikitLearn", icon: "devicon:scikitlearn", level: "beginner" },
+  { name: "Pytorch", icon: "devicon:pytorch", level: "beginner" },
   { name: "Prompt Engineering", icon: "devicon:scikitlearn", level: "good" },
 ];
 

@@ -13,12 +13,12 @@ const { t } = useI18n()
       {{ t('about.skills.subtitle') }}
     </p>
 
+    <SkillSection :title="t('about.skills.sections.dataScience')" title-icon="line-md:computer" :items="dataScience" />
+    <SkillSection :title="t('about.skills.sections.databases')" title-icon="line-md:document-report" :items="databases" />
     <SkillSection :title="t('about.skills.sections.frontend')" title-icon="line-md:document-code" :items="frontend" />
     <SkillSection :title="t('about.skills.sections.backend')" title-icon="line-md:document-code" :items="backend" />
-    <SkillSection :title="t('about.skills.sections.databases')" title-icon="line-md:document-report" :items="databases" />
     <SkillSection :title="t('about.skills.sections.devops')" title-icon="line-md:cog" :items="devops" />
     <SkillSection :title="t('about.skills.sections.securityNetworking')" title-icon="line-md:security" :items="securityNetworking" />
-    <SkillSection :title="t('about.skills.sections.dataScience')" title-icon="line-md:computer" :items="dataScience" />
     <SkillSection :title="t('about.skills.sections.hardware')" title-icon="line-md:lightbulb" :items="hardware" />
     <SkillSection :title="t('about.skills.sections.designTools')" title-icon="line-md:pencil" :items="designTools" />
     <SkillSection :title="t('about.skills.sections.cmsTools')" title-icon="line-md:computer" :items="cmsTools" />
