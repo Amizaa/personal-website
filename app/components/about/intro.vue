@@ -26,9 +26,26 @@ const { t, locale } = useI18n()
 
       <br><br>
 
-      <i18n-t keypath="about.intro.content.extra">
+      <i18n-t keypath="about.intro.content.extra1">
+        <template #ds>
+            <NuxtLink class="highlighted-text">{{locale === 'fa' ? 'علوم داده' : 'data science'}}</NuxtLink>
+          </template>
+          <template #statistics>
+            <NuxtLink class="highlighted-text">{{locale === 'fa' ? 'آمار' : 'statistics'}}</NuxtLink>
+          </template>
+          <template #ml>
+            <NuxtLink class="highlighted-text">{{locale === 'fa' ? 'یادگیری ماشین' : 'machine learning'}}</NuxtLink>
+          </template>
+          <template #da>
+            <NuxtLink class="highlighted-text">{{locale === 'fa' ? 'تحلیل داده' : 'data analysis'}}</NuxtLink>
+        </template>
+      </i18n-t>
+
+      <br><br>
+
+      <i18n-t keypath="about.intro.content.extra2">
         <template #keepLearning>
-          <NuxtLink class="highlighted-text">{{locale === 'fa' ? 'یادگیری، ساخت و الهام' : 'keep learning, building, and sharing'}}</NuxtLink>
+          <NuxtLink class="highlighted-text">{{locale === 'fa' ? 'یادگیری، ساخت و الهام' : 'keep learning, building, and inspiring'}}</NuxtLink>
         </template>
       </i18n-t>
     </p>

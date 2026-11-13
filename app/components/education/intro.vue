@@ -34,6 +34,12 @@ onMounted(() => {
         <template #major>
           <NuxtLink to="/" class="highlighted-text">{{ locale === 'fa' ? 'مهندسی کامپیوتر' : 'Computer Engineering' }}</NuxtLink>
         </template>
+        <template #ai>
+          <NuxtLink to="/" class="highlighted-text">{{ locale === 'fa' ? 'هوش مصنوعی' : 'Artificial Intelligence' }}</NuxtLink>
+        </template>
+        <template #kntu>
+          <NuxtLink to="https://kntu.ac.ir/" class="highlighted-text">{{ locale === 'fa' ? 'دانشگاه خواجه نصیر الدین طوسی' : 'K. N. Toosi University of Technology' }}</NuxtLink>
+        </template>
         <template #association>
           <NuxtLink to="https://uucessc.ir" class="highlighted-text">{{ locale === 'fa' ? 'انجمن علمی مهندسی کامپیوتر' : 'Computer Engineering Association' }}</NuxtLink>
         </template>

@@ -14,8 +14,11 @@
     "intro": {
       "title": "My Story",
       "content": {
-        "intro": "Hi, I'm {amirreza} a frontend developer with a passion for crafting smooth, expressive user interfaces using {vue} and {nuxt}. My journey in tech started 4 years ago, and since then, I've had the privilege of working on diverse projects. If I don’t know something, I dive in, explore, and learn it. That mindset fuels my daily growth and has recently led me into the exciting world of {ai}.",
-        "extra": "Beyond the screen, I find inspiration in nature, music, and the stories of the past. I believe that creativity thrives at the intersection of disciplines and I'm excited to {keepLearning} along the way."
+          "intro":"Hi, I'm {amirreza}, a developer with a background in frontend development and a growing passion for {ai}. Over the past five years, I've worked on various projects, primarily building modern and engaging user interfaces with {vue} and {nuxt}.",
+
+          "extra1": "I'm currently exploring the world of {ds}, expanding my knowledge in areas such as {statistics}, {ml}, and {da}. I'm naturally curious, and whenever I encounter something unfamiliar, I enjoy diving deep, experimenting, and learning along the way.",
+
+          "extra2": "Beyond technology, I find inspiration in nature, music, and the stories of the past. I believe creativity thrives at the intersection of different disciplines, and I'm excited to {keepLearning} along the way."
       }
     
     },
@@ -61,7 +64,7 @@
     "education": {
       "title": "My Education & Academic Achievements",
       "content": {
-        "intro": "I graduated from {university} with a degree in {major}, achieving a high academic standing. During my studies, I actively contributed to the {association} for two years. This experience not only strengthened my technical expertise but also enhanced my teamwork, leadership, and communication skills."
+        "intro": "I graduated from {university} with a degree in {major}, achieving a high academic standing. I am currently pursuing an MSc in {ai} at {kntu}. During my studies, I actively contributed to the {association} for two years. This experience not only strengthened my technical expertise but also enhanced my teamwork, leadership, and communication skills."
       }
     },
     "academic":{
